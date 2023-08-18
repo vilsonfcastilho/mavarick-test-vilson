@@ -14,7 +14,8 @@ And then run the following command to start the server in the development enviro
 
 To access the project you will send your requests to `http://localhost:CONFIGURATED_PORT`.
 
-(OBS: If the PORT was not configated it will be set '3333' as default)
+(OBS1: If the PORT was not configated it will be set '3333' as default)
+(OBS2: Fill the Database data in the '.env' following the PDF test data)
 
 ## ⚡️ Routes
 
