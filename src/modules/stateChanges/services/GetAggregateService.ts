@@ -28,7 +28,9 @@ export class GetAggregateService {
       end_time,
     });
 
-    const utilization = operationalSum / (operationalSum + nonOperationalSum);
+    const unformatedUtilization = operationalSum / (operationalSum + nonOperationalSum);
+
+    const utilization = Number((unformatedUtilization * 100).toFixed(2));
 
     const utilizationData = {
       machine: machine_name,
